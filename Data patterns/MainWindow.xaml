@@ -24,10 +24,10 @@
                     <Image Grid.Row="0" Grid.Column="0" Grid.RowSpan="3" Width="70" Height="70" Source="{Binding Path=ProdImage}"/>
                     <TextBlock Grid.Row="0" Grid.Column="1" Text="Название товара"/>
                     <TextBlock Grid.Row="0" Grid.Column="2" Text="{Binding Path=ProdName}"/>
-                    <TextBlock Grid.Row="0" Grid.Column="1" Text="Цена"/>
-                    <TextBlock Grid.Row="0" Grid.Column="2" Text="{Binding Path=ProdPrice}"/>
-                    <TextBlock Grid.Row="0" Grid.Column="1" Text="Категория товара"/>
-                    <TextBlock Grid.Row="0" Grid.Column="2" Text="{Binding Path=ProdCategory, Converter={StaticResource converter}}"/>
+                    <TextBlock Grid.Row="1" Grid.Column="1" Text="Цена"/>
+                    <TextBlock Grid.Row="1" Grid.Column="2" Text="{Binding Path=ProdPrice}"/>
+                    <TextBlock Grid.Row="2" Grid.Column="1" Text="Категория товара"/>
+                    <TextBlock Grid.Row="2" Grid.Column="2" Text="{Binding Path=ProdCategory, Converter={StaticResource converter}}"/>
                 </Grid>
             </Border>
             <DataTemplate.Triggers>

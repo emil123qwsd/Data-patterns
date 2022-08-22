@@ -11,7 +11,7 @@ namespace Data_patterns
         Food,
         Appliances
     }
-    class Product
+    public class Product
     {
         public string ProdName { get; set; }
         public int ProdPrice { get; set; }

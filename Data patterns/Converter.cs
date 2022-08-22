@@ -9,7 +9,7 @@ using System.Windows.Data;
 
 namespace Data_patterns
 {
-    class Converter : IValueConverter
+    public class Converter : IValueConverter
     {
         public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
         {
@@ -17,7 +17,11 @@ namespace Data_patterns
             {
                 return "Еда";
             }
-            return "Бытовая техника";
+            else 
+            {
+                return "Бытовая техника";
+            }
+            
         }
 
         public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)

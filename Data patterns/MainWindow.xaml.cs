@@ -52,21 +52,21 @@ namespace Data_patterns
                 ProdName = "Холодильник",
                 ProdPrice = 80000,
                 ProdImage = "Data/Холодильник.jpg",
-                ProductCategorys = ProductCategorys.Food
+                ProductCategorys = ProductCategorys.Appliances
             });
             products.Add(new Product()
             {
                 ProdName = "Телевизор",
                 ProdPrice = 60000,
                 ProdImage = "Data/Телевизор.jpg",
-                ProductCategorys = ProductCategorys.Food
+                ProductCategorys = ProductCategorys.Appliances
             });
             products.Add(new Product()
             {
                 ProdName = "Стиральная машина",
                 ProdPrice = 45000,
                 ProdImage = "Data/Стиральная машина.jpg",
-                ProductCategorys = ProductCategorys.Food
+                ProductCategorys = ProductCategorys.Appliances
             });
             listBox.ItemsSource = products;
         }
